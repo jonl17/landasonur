@@ -47,43 +47,50 @@ export default function Home() {
 
           <div className="relative flex flex-col items-center gap-6 p-6 sm:p-8 md:p-10">
             <Image
-              src="/bok-mocky.jpg"
+              src="/kapa.png"
               alt="Bókarkápa: EFRI HÆÐIN eftir Jón Lorange"
               height={580}
               width={580}
               className="h-auto w-full max-w-md rounded-2xl shadow-lg"
               priority
             />
-
             <h1
               id="modal-title"
               className="text-center text-3xl font-extrabold tracking-tight text-zinc-900 drop-shadow-sm md:text-4xl dark:text-white"
             >
-              EFRI HÆÐIN – fjármögnun
+              EFRI HÆÐIN
             </h1>
-
-            <div className="flex w-full flex-col items-center gap-4">
-              <Link
-                href={KAROLINA_URL}
-                target="_blank"
-                rel="noreferrer"
-                className="w-full max-w-md"
-              >
-                <Button className="h-12 w-full gap-2 rounded-2xl text-lg shadow-lg transition-transform active:scale-[0.98]">
-                  Sjá fjármögnun á Karolina Fund
-                  <ExternalLink className="h-5 w-5" />
-                </Button>
-              </Link>
-
-              <div className="flex items-center gap-2 text-zinc-700 dark:text-zinc-300">
-                <span className="text-sm">Hafa samband:</span>
-                <Link href="mailto:jglorange@gmail.com">
-                  <Button variant="link" className="gap-2 text-base">
-                    <Mail className="h-4 w-4" /> jglorange@gmail.com
-                  </Button>
-                </Link>
-              </div>
+            <div className="grid gap-3 text-lg">
+              <p>
+                Litla stúlkan og kisa lenda í óvæntum ævintýrum þegar þau ætla
+                upp á efri hæðina til mömmu að sækja mjólk handa kisu að lepja.
+                Þegar þau fara upp stigann til að komast á efri hæðina breytist
+                allt.
+              </p>
+              <p>
+                Í staðinn fyrir að finna mömmu rekast þau á fiskhausamenn að
+                drekka kaffi, óendanlegt graslendi, opið hafið, hliðstæðan
+                raunveruleika – og allskonar stiga sem virðast teygja sig út
+                fyrir öll lögmál heimsins.
+              </p>
+              <p>
+                Sagan minnir á klassísk ævintýri á borð við Lísa í Undralandi og
+                Palli var einn í heiminum, þar sem hið venjulega snýst á hvolf
+                og ímyndunaraflið fær að leika lausum hala.
+              </p>
+              <p>
+                Efri Hæðin er myndskreytt barnabók fyrir 3 ára og eldri,
+                fullkomin fyrir forvitin börn og fullorðna sem kunna að meta
+                bækur sem örva ímyndunaraflið.
+              </p>
             </div>
+
+            <Link target="_blank" href="mailto:jglorange@gmail.com">
+              <Button>
+                Panta bók hér
+                <ExternalLink />
+              </Button>
+            </Link>
           </div>
 
           {/* Ambient hover ring */}
