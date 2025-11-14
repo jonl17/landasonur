@@ -85,9 +85,12 @@ export default function Home() {
               </p>
             </div>
 
-            <Link target="_blank" href="mailto:jglorange@gmail.com">
+            <Link
+              target="_blank"
+              href="https://www.forlagid.is/vara/efri-haedin/"
+            >
               <Button>
-                Panta bók hér
+                Kaupa bók
                 <ExternalLink />
               </Button>
             </Link>
