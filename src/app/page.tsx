@@ -21,12 +21,6 @@ export default function Home() {
         className="object-cover object-center scale-105"
       />
 
-      {/* Floating logo top-left */}
-      {/* Floating 3D coin logo (top-left) */}
-      <div className="absolute top-6 left-6 z-20">
-        <CoinLogo size={120} />
-      </div>
-
       {/* Glow accents */}
       <div className="absolute inset-x-0 top-1/4 mx-auto h-40 w-[32rem] -translate-y-1/2 rounded-full bg-emerald-400/30 blur-3xl" />
       <div className="absolute inset-x-0 bottom-10 mx-auto h-32 w-[28rem] rounded-full bg-amber-300/20 blur-3xl" />

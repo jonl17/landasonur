@@ -1,3 +1,4 @@
+"use client";
 // 3D Spinning coin logo component
 import * as THREE from "three";
 import { Canvas, useFrame } from "@react-three/fiber";
