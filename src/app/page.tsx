@@ -79,15 +79,24 @@ export default function Home() {
               </p>
             </div>
 
-            <Link
-              target="_blank"
-              href="https://www.forlagid.is/vara/efri-haedin/"
-            >
-              <Button>
-                Kaupa bók
-                <ExternalLink />
-              </Button>
-            </Link>
+            <div className="flex gap-3">
+              <Link
+                target="_blank"
+                href="https://www.forlagid.is/vara/efri-haedin/"
+              >
+                <Button>
+                  Kaupa bók
+                  <ExternalLink />
+                </Button>
+              </Link>
+
+              <Link target="_blank" href="mailto:jglorange@gmail.com">
+                <Button>
+                  Hafa samband
+                  <ExternalLink />
+                </Button>
+              </Link>
+            </div>
           </div>
 
           {/* Ambient hover ring */}
