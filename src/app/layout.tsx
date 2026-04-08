@@ -18,7 +18,7 @@ const siteUrl = "https://www.landasonur.is";
 export const metadata: Metadata = {
   title: "Landasonur forlag – Jón Lorange",
   description:
-    "Landasonur forlag er heimili Jóns Lorange — barnabókahöfundar, myndlistarmanns og forritara. Efri Hæðin, fyrsta barnabók hans, er í boði hjá Forlaginu.",
+    "Landasonur forlag er heimili Jóns Lorange — barnabókahöfundar, myndlistarmanns og forritara. Efri Hæðin er fyrsta barnabók hans.",
   keywords: [
     "Jón Lorange",
     "Landasonur forlag",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     siteName: "Landasonur forlag",
     title: "Landasonur forlag – Jón Lorange",
     description:
-      "Barnabókahöfundur, myndlistarmaður og forritari. Efri Hæðin — fyrsta barnabók Jóns Lorange — er í boði hjá Forlaginu.",
+      "Barnabókahöfundur, myndlistarmaður og forritari. Efri Hæðin er fyrsta barnabók Jóns Lorange.",
     images: [
       {
         url: "/promo.png",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Landasonur forlag – Jón Lorange",
     description:
-      "Barnabókahöfundur, myndlistarmaður og forritari. Efri Hæðin — fyrsta barnabók Jóns Lorange.",
+      "Barnabókahöfundur, myndlistarmaður og forritari. Efri Hæðin — er fyrsta barnabók Jóns Lorange.",
     images: ["/promo.png"],
   },
   robots: {
