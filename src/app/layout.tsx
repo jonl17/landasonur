@@ -18,7 +18,7 @@ const siteUrl = "https://www.landasonur.is";
 export const metadata: Metadata = {
   title: "Landasonur forlag – Jón Lorange",
   description:
-    "Landasonur forlag er heimili Jóns Lorange — barnabókahöfundar, myndlistarmanns og forritara. Efri Hæðin er fyrsta barnabók hans.",
+    "Landasonur forlag er heimili Jóns Lorange — barnabókahöfundar, tónlistarmanns, teiknara og forritara. Efri Hæðin er fyrsta barnabók hans.",
   keywords: [
     "Jón Lorange",
     "Landasonur forlag",
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
     "barnabók",
     "barnabókahöfundur",
     "íslenskar barnabækur",
-    "myndlistarmaður",
-    "Karolina Fund",
+    "tónlistarmaður",
+    "teiknari",
   ],
   authors: [{ name: "Jón Lorange", url: siteUrl }],
   creator: "Jón Lorange",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     siteName: "Landasonur forlag",
     title: "Landasonur forlag – Jón Lorange",
     description:
-      "Barnabókahöfundur, myndlistarmaður og forritari. Efri Hæðin er fyrsta barnabók Jóns Lorange.",
+      "Barnabókahöfundur, tónlistarmaður, teiknari og forritari. Efri Hæðin er fyrsta barnabók Jóns Lorange.",
     images: [
       {
         url: "/promo.png",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Landasonur forlag – Jón Lorange",
     description:
-      "Barnabókahöfundur, myndlistarmaður og forritari. Efri Hæðin — er fyrsta barnabók Jóns Lorange.",
+      "Barnabókahöfundur, tónlistarmaður, teiknari og forritari. Efri Hæðin — er fyrsta barnabók Jóns Lorange.",
     images: ["/promo.png"],
   },
   robots: {
@@ -74,7 +74,12 @@ const jsonLd = {
       name: "Jón Lorange",
       url: siteUrl,
       sameAs: ["https://www.instagram.com/landasonur/"],
-      jobTitle: ["Barnabókahöfundur", "Myndlistarmaður", "Forritari"],
+      jobTitle: [
+        "Barnabókahöfundur",
+        "Tónlistarmaður",
+        "Teiknari",
+        "Forritari",
+      ],
       email: "jglorange@gmail.com",
     },
     {

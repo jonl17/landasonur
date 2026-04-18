@@ -19,7 +19,7 @@ export default function Home() {
       >
         <Image
           src="/myrkur.jpg"
-          alt="Myrkur"
+          alt="mynd"
           width={1800}
           height={1200}
           priority
@@ -38,7 +38,7 @@ export default function Home() {
           Jón Lorange
         </p>
         <p className="mt-1 font-[var(--font-manrope)] text-[0.78rem] font-normal tracking-wide text-[#e7dc2f]/45 sm:text-[0.8rem]">
-          barnabókahöfundur · myndlistarmaður · forritari
+          barnabókahöfundur · tónlistarmaður · teiknari · forritari
         </p>
       </motion.div>
 
