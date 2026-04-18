@@ -38,7 +38,7 @@ export default function Home() {
           Jón Lorange
         </p>
         <p className="mt-1 font-[var(--font-manrope)] text-[0.78rem] font-normal tracking-wide text-[#e7dc2f]/45 sm:text-[0.8rem]">
-          barnabókahöfundur · tónlistarmaður · teiknari · forritari
+          myndhöfundur, tónlistarmaður, forritari
         </p>
       </motion.div>
 
